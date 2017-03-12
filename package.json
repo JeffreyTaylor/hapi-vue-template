@@ -3,7 +3,7 @@
   "description": "Hapi + Vue",
   "author": "Jeffrey Taylor <jeff@thetaylors.com>",
   "scripts": {
-    "start": "node server/server.js | npm run watch",
+    "start": "node server/server.js",
     "watch": "webpack --watch --progress --hide-modules --config webpack.config.js",
     "bundle": "webpack --progress --hide-modules --config webpack.config.js",
     "bundle:production": "NODE_ENV=production npm run bundle"
