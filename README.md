@@ -37,7 +37,8 @@
 ### Babel
 * **Link**: http://babeljs.io/
 * **Used for**: Transpiling es6 code to es5
-* **Reason**: I'd actually love to get rid of this dependency. However, because node.js allows me to write arrow functions ([not yet supported in all browsers](http://caniuse.com/#feat=arrow-functions)) and require statements, it makes sense that I can do it on the front end as well. Therefore, I use babel to transpile a little bit of fancy javascript down to ES5.
+* **Reason**: I'd actually love to get rid of this dependency. 
+However, because node.js allows me to write arrow functions ([not yet supported in all browsers](http://caniuse.com/#feat=arrow-functions)) and es6 classes ([not yet supported in all browsers](http://caniuse.com/#feat=es6-class)), it makes sense that I can do it on the front end as well. Therefore, I use babel to transpile a little bit of fancy javascript down to ES5.
 
 
 # Coming soon
