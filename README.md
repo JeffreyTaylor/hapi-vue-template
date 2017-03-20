@@ -45,7 +45,7 @@ However, because node.js allows me to write arrow functions ([not yet supported 
 
 
 # Coming soon
-* Example with vue-router
-* Example of server side rendered page
-* Watching server side files & restarting when server-side changes
-* Tests
+- [x] Example with vue-router
+- [ ] Example of server side rendered page
+- [ ] Watching server side files & restarting when server-side changes
+- [ ] Tests

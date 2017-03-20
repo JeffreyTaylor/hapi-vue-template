@@ -1,9 +1,16 @@
 const Vue = require('vue');
-const App = require('./app.vue');
+const VueRouter = require('vue-router');
+const Home = require('./home/home.vue');
+const Details = require('./details/details.vue');
+
+Vue.use(VueRouter);
 
 new Vue({
   el: '#app',
-  components: {
-    App
-  }
+  router: new VueRouter({
+    routes: [
+      { path: '/', component: Home },
+      { path: '/details', component: Details }
+    ]
+  })
 });

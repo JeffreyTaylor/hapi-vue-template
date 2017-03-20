@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1>{{ message }}</h1>
-    <button class="button" @click="getUsers()">API</button>
+    <button class="button" @click="getUsers()">Make example ajax call</button>
     <div v-if="!error">
       <p>User list: </p>
       <ul>

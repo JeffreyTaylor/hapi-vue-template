@@ -15,7 +15,8 @@ const config = {
       modules: [path.join(__dirname, './node_modules')],
       extensions: ['.js', '.vue'],
       alias: {
-        'vue$': 'vue/dist/vue.common.js'
+        'vue$': 'vue/dist/vue.common.js',
+        'vue-router$': 'vue-router/dist/vue-router.js'
       }
     },
     module: {

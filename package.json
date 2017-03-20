@@ -13,7 +13,8 @@
     "glue": "4.1.0",
     "hapi": "16.1.0",
     "inert": "4.1.0",
-    "vue": "2.1.10"
+    "vue": "2.1.10",
+    "vue-router": "^2.3.0"
   },
   "devDependencies": {
     "babel-core": "6.23.1",
