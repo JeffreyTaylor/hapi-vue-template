@@ -6,7 +6,7 @@
 - run ```npm run package:production``` to minify all the front-end dependencies.
 - fire up a browser @ localhost:9011 
 
-#Application Technologies 
+# Application Technologies 
 
 ### Hapi.js
 * **Link**: https://hapijs.com/
