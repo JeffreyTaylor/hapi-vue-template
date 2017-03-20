@@ -1,10 +1,13 @@
 # Getting started
 - clone this repository
 - run ```npm install``` to install dependencies.
+- run ```npm run build``` to build the application
 - run ```npm start``` to run the server
-- run ```npm run watch``` to watch the front-end files & restart when changes occur.
-- run ```npm run package:production``` to minify all the front-end dependencies.
 - fire up a browser @ localhost:9011 
+
+### Other helpful npm scripts
+- run ```npm run build:production``` to build application with minified scripts + css
+- run ```npm run watch``` to watch the `/client` folder for changes
 
 # Application Technologies 
 
