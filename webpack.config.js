@@ -5,7 +5,7 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 const config = {
     entry: [
-      './client/main.js',
+      './client/app.js',
     ],
     output: {
       path: path.resolve(__dirname, './_dist/'),
