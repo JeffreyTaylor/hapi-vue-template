@@ -13,8 +13,8 @@
     "glue": "4.1.0",
     "hapi": "16.1.0",
     "inert": "4.1.0",
-    "vue": "2.1.10",
-    "vue-router": "^2.3.0"
+    "vue": "2.2.4",
+    "vue-router": "2.3.0"
   },
   "devDependencies": {
     "babel-core": "6.23.1",
@@ -27,7 +27,7 @@
     "vue-html-loader": "1.2.2",
     "vue-loader": "10.0.1",
     "vue-style-loader": "1.0.0",
-    "vue-template-compiler": "2.1.10",
+    "vue-template-compiler": "2.2.4",
     "webpack": "2.2.0"
   }
 }
