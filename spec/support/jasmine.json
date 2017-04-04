@@ -4,7 +4,8 @@
     "**/*[sS]pec.js"
   ],
   "helpers": [
-    "helpers/**/*.js"
+    "helpers/**/*.js",
+    "./reporter.js"
   ],
   "stopSpecOnExpectationFailure": false,
   "random": false
