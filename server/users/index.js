@@ -1,22 +1,18 @@
-exports.register = function (server, options, next) {
+exports.plugin = {
+  register: (server, options) => {
 
-  server.route({
-    method: 'GET',
-    path: '/',
-    handler: function (request, reply) {
-      reply({
-        users: [
-          { name: 'user 1'},
-          { name: 'user 2'}
-        ]
-      })
-    }
-  });
-
-  next();
-
-};
-
-exports.register.attributes = {
+    server.route({
+      method: 'GET',
+      path: '/',
+      handler: async (request, h) => {
+        return {
+          users: [
+            {name: 'user 1'},
+            {name: 'user 2'}
+          ]
+        };
+      }
+    });
+  },
   pkg: require('./module.json')
 };
